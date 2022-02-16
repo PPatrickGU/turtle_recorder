@@ -266,7 +266,7 @@ def setting():          #参数设置
     colormode(255)      #将其设置为1.0或255.随后 颜色三元组的r，g，b值必须在0 .. cmode范围内
     color((255,155,192),"pink")
     setup(840,500)
-    speed(10)
+    speed(0)
 
 def main():
     setting()           #画布、画笔设置

@@ -71,6 +71,7 @@ class Recorder(object):
     def to_video(self, output):
         print('Generating video...')
         self.animation.save(output, fps=self.fps, extra_args=['-vcodec', 'libx264'])
+        # self.animation.save(output, fps=self.fps)
         print('Video generated successfully.')
     def to_gif(self, output):
         print('Generating gif...')
